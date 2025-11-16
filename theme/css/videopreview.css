@@ -1,0 +1,38 @@
+.video-preview {
+    display: block;
+}
+.video-preview a {
+    display: inline-block !important; 
+    position: relative;
+    background: #ddd;
+    overflow: hidden;
+    height: 270px;
+    width: 360px;
+    border-radius: 3px;
+    box-shadow: 0 0 6px #bbb;
+    padding: 0px;
+    text-indent: 0em;
+}
+
+.video-preview img {
+    display: none;
+}
+
+.video-preview a span.videotitle {
+    display: inline-block;
+    color: red;
+    padding: 5px 9px;
+    margin-top: 1em;
+    margin-left: 0%;
+    width: 98%;
+    font-size: 120%;
+    color: white;
+    background-color: #333;
+    box-shadow: 0 0 6px #bbb;
+    border-radius: 5px;
+    opacity: 0.88;
+}
+
+.video-preview a span.videotitle:hover {
+    opacity: 0;
+}

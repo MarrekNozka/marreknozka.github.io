@@ -8,7 +8,7 @@ const copyToClipboardSuccessText = {
 };
 
 // Get all pre. But ignore line numbers section
-document.querySelectorAll("div.highlight pre").forEach(snippet => {
+document.querySelectorAll("div.highlight > pre, div.highlight .code pre").forEach(snippet => {
   // create div.codecopy
   const wrapper = document.createElement("div");
   wrapper.classList.add("codecopy");
@@ -22,8 +22,8 @@ document.querySelectorAll("div.highlight pre").forEach(snippet => {
   const button = `
             <button
                 class="codecopy-btn"
-                title=${copyToClipboardDefaultText.ariaLabel}
-                aria-label=${copyToClipboardDefaultText.ariaLabel}
+                title="${copyToClipboardDefaultText.ariaLabel}"
+                aria-label="${copyToClipboardDefaultText.ariaLabel}"
             >${copyToClipboardDefaultText.innerText}
             </button>`;
 
@@ -34,7 +34,7 @@ document.querySelectorAll("div.highlight pre").forEach(snippet => {
 // Add copy to clipboard functionality
 const clipboard = new ClipboardJS(".codecopy-btn", {
   target: trigger => {
-    return trigger.parentNode;
+    return trigger.nextSibling;
   }
 });
 

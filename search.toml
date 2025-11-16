@@ -1,0 +1,48 @@
+[input]
+html_selector = "article"
+base_directory = "output"
+
+[[input.files]]
+path = "pages/o-mne.html"
+url = "/pages/o-mne.html"
+title = "O mně"
+
+[[input.files]]
+path = "krestan-a-harry-potter.html"
+url = "/krestan-a-harry-potter.html"
+title = "Křesťan a Harry Potter"
+
+[[input.files]]
+path = "pancir-svateho-patrika.html"
+url = "/pancir-svateho-patrika.html"
+title = "Pancíř svatého Patrika"
+
+[[input.files]]
+path = "istanbulska-umluva.html"
+url = "/istanbulska-umluva.html"
+title = "Istanbulská úmluva"
+
+[[input.files]]
+path = "nase-matka-maria-nase-pani-archy.html"
+url = "/nase-matka-maria-nase-pani-archy.html"
+title = "Naše Matka Maria, naše Paní Archy"
+
+[[input.files]]
+path = "hra-zivota-game-of-live.html"
+url = "/hra-zivota-game-of-live.html"
+title = "Hra života -- Game of live"
+
+[[input.files]]
+path = "jak-automaticky-pripojovat-vzdalene-diskove-oddily.html"
+url = "/jak-automaticky-pripojovat-vzdalene-diskove-oddily.html"
+title = "Jak automaticky připojovat vzdálené diskové oddíly"
+
+[[input.files]]
+path = "vychozi-kodovani-v-pythonu.html"
+url = "/vychozi-kodovani-v-pythonu.html"
+title = "Výchozí kódování v Pythonu"
+
+[[input.files]]
+path = "python-pro-zpracovani-signalu.html"
+url = "/python-pro-zpracovani-signalu.html"
+title = "Python pro zpracování signálů"
